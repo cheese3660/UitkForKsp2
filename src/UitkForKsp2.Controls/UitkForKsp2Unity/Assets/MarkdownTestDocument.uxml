@@ -4,7 +4,7 @@
     <ui:VisualElement name="VisualElement" class="root" style="flex-grow: 1; flex-shrink: 1; flex-wrap: nowrap;">
         <ui:DropdownField label="File" index="-1" choices="Test,SpaceWarp,VeryLong" />
         <ui:ScrollView horizontal-scroller-visibility="Hidden">
-            <UitkForKsp2.Controls.MarkdownRenderer.MarkdownElement />
+            <UitkForKsp2.Controls.MarkdownRenderer.MarkdownElement text="# Header&#10;this is some subtext&#10;```scss&#10;This is a code block with way too much code&#10;```" />
         </ui:ScrollView>
     </ui:VisualElement>
 </ui:UXML>

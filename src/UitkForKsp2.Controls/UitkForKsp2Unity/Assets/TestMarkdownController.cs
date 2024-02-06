@@ -53,7 +53,7 @@ public class TestMarkdownController : MonoBehaviour
         MarkdownApi.RegisterMarkdownImageHandler("https",UnityWebRequestImageHandler);
         var md = Document.rootVisualElement.Q<MarkdownElement>();
         Document.rootVisualElement.Q<DropdownField>()
-            .RegisterValueChangedCallback(evt => md.Markdown = File.ReadAllText($"Assets/{evt.newValue}.md"));
+            .RegisterValueChangedCallback(evt => md.text = File.ReadAllText($"Assets/{evt.newValue}.md"));
     }
 
     // Update is called once per frame
