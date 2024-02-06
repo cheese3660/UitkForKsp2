@@ -27,7 +27,8 @@ Drag the contents of Space Warp's .zip file into your KSP2 directory, commonly l
 
 In the case of installing on Linux under Wine/Proton, you need to override winhttp DLL in winecfg, as described [in BepInEx documentation](https://docs.bepinex.dev/articles/advanced/proton_wine.html).
 
-To install the downloaded mods, simply drag them into the plugins folder location: `C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program 2\BepInEx\plugins`. Remember that mods don't go into the SpaceWarp plugin folder, they go along side with it in the `BepInEx\plugins` folder.
+To install the downloaded mods, simply drag them into the plugins folder location: `C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program 2\BepInEx\plugins`.
+Remember that mods don't go into the SpaceWarp plugin folder, they go along side with it in the `BepInEx\plugins` folder.
 
 That should be it, you can now launch the game and enjoy!
 
